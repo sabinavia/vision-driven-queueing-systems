@@ -28,8 +28,27 @@ The simulation framework is designed to support reproducible experimental evalua
 - SimPy  
 - Matplotlib  
 - SciPy  
+## Repository Structure
+vision-driven-queueing-systems/
+│
+├── README.md
+├── requirements.txt
+├── simulation/
+│   ├── main.py
+│   ├── vision_module.py
+│   ├── queue_model.py
+│   ├── control.py
+│   ├── experiments.py
+│   └── plots.py
+└── results/
+    └── figures/
+
+
+    
+
 
 Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
+
